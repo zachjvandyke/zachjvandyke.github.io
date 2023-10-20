@@ -126,6 +126,7 @@ input, select, textarea {
 		}
 
 	h2 {
+		backdrop-filter: blur(10px) saturate(70%);
 		font-size: 2em;
 		letter-spacing: -1px;
 	}
