@@ -5,7 +5,6 @@ const cur = document.getElementById("cur");
 const dur = document.getElementById("dur");
 const back15 = document.getElementById("back15");
 const fwd30 = document.getElementById("fwd30");
-const vol = document.getElementById("vol");
 
 function fmt(t) {
   if (!Number.isFinite(t) || t < 0) t = 0;
@@ -57,9 +56,6 @@ fwd30.addEventListener("click", () => {
   }
 });
 
-vol.addEventListener("input", () => {
-  audio.volume = Number(vol.value);
-});
 
 audio.addEventListener("play", setPlayIcon);
 audio.addEventListener("pause", setPlayIcon);
