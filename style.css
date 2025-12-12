@@ -100,15 +100,6 @@ body{
 
 .spacer{ flex:1; }
 
-.vol{
-  display:flex;
-  align-items:center;
-  gap: 8px;
-  color: var(--muted);
-  font-size: 13px;
-}
-.vol input{ width: 120px; }
-
 .buy{
   display:block;
   text-align:center;
